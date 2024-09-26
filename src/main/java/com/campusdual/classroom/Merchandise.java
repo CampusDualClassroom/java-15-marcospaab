@@ -10,7 +10,7 @@ public abstract class Merchandise {
 	protected String shelf;
 	protected int quantity;
 
-	public Merchandise(String name, String uniqueId, String responsibleId) {
+	public Merchandise() {
 		this.name = name;
 		this.uniqueId = uniqueId;
 		this.responsibleId = responsibleId;
